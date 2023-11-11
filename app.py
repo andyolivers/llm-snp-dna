@@ -1,11 +1,8 @@
 import os
-import torch
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from transformers import pipeline
 import plotly.express as px
 import pandas as pd
 import warnings
-from time import  sleep
 import streamlit as st
 from snps import SNPs
 warnings.filterwarnings("ignore", category=UserWarning)
